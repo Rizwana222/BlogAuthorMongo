@@ -2,40 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a0dcbfc-cfe4-4999-89cf-40d7fb98b66b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/BlogController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/SessionDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/course/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/freemarker/login.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/freemarker/signup.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController$7.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController$8.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController$FreemarkerBasedRoute.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/BlogController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/SessionDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/course/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/freemarker/blog_template.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/freemarker/error_template.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/freemarker/login.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/freemarker/signup.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/freemarker/welcome.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/freemarker/newpost_template.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/freemarker/post_not_found.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/course/BlogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/course/BlogController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController$FreemarkerBasedRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController$FreemarkerBasedRoute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/course/BlogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/course/BlogController.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,33 +31,54 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="M101J" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BlogController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="131" column="20" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="20" />
+            <state relative-caret-position="168">
+              <caret line="416" selection-start-line="416" selection-end-line="416" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/course/SessionDAO.java">
+      <file leaf-file-name="entry_template.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+            <state relative-caret-position="365">
+              <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
+      <file leaf-file-name="blog_template.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="443">
+              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="error_template.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlogPostDAO.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="110" column="91" selection-start-line="110" selection-start-column="91" selection-end-line="110" selection-end-column="91" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1083#1093#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,9 +86,17 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>root</find>
+      <find>update</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -91,6 +106,16 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/course/UserDAO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/course/BlogController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/login.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/newpost_template.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/post_not_found.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/signup.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java" />
       </list>
     </option>
   </component>
@@ -107,7 +132,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -141,10 +165,26 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="course" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="M101J" type="b2602c69:ProjectViewProjectNode" />
+              <item name="create_blog_authors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="M101J" type="b2602c69:ProjectViewProjectNode" />
+              <item name="create_blog_authors" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="freemarker" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -247,32 +287,34 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298122" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32945284" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.13736904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32945284" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.13673232" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18486486" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4982639" visible="true" weight="0.24702702" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24972972" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32945284" />
+      <window_info id="Structure" order="1" sideWeight="0.5017361" side_tool="true" weight="0.24702702" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="2" sideWeight="0.5017361" side_tool="true" weight="0.24702702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -281,6 +323,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2470">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/SessionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3406">
           <caret line="131" column="20" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="20" />
         </state>
@@ -327,6 +393,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3406">
+          <caret line="131" column="20" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/SessionDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -339,15 +419,91 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/SessionDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        <state relative-caret-position="390">
+          <caret line="38" column="30" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/UserDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-548">
+          <caret line="50" column="29" selection-start-line="50" selection-start-column="29" selection-end-line="50" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/entry_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="59" column="7" lean-forward="true" selection-start-line="59" selection-start-column="7" selection-end-line="59" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/blog_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/welcome.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/signup.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/post_not_found.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/newpost_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/freemarker/error_template.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="131" column="20" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="20" />
+        <state relative-caret-position="168">
+          <caret line="416" selection-start-line="416" selection-end-line="416" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/course/BlogPostDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="110" column="91" selection-start-line="110" selection-start-column="91" selection-end-line="110" selection-end-column="91" />
+          <folding>
+            <element signature="e#1083#1093#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
